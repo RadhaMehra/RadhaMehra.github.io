@@ -66,19 +66,10 @@ body {
 	
 }
 
-#white-text {
-  color: white;
-}
-
 .white-text {
 	margin-top:5px;
 	padding:0px;
   color: white !important
-}
-.nav-home {
-    margin-top: 15px;
-    padding: 0px;
-    margin-left: -4px;
 }
 
 #header ul .glyphicon {
@@ -359,13 +350,12 @@ color:#a4b5be
 }
 
 .nav-img {
-	margin-top:13px;
-	margin-bottom:18px;
-	padding:0px;
-}
-
-#nav-right {
 	position:relative;
+	top:-3px;
+}
+.nav-right {
+	position:relative;
+	bottom:-10px;
 	right:210px;
 }
 .glyphicon-menu-down
@@ -401,4 +391,22 @@ color:#a4b5be
 }
 .trend-p{
 	margin-left:15px;
-	}
+	}.
+	
+	
+#nav-right-img {
+position:relative;
+top:-10px;
+
+
+}	
+#badge1{
+	color:white;
+	background-color:red;
+	position:relative;
+	top:-23px;
+	border-radius:1px;
+	padding:1px 2px 1px 4px;
+	
+}
+	
