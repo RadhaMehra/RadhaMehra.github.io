@@ -22,7 +22,7 @@ footer {
  
 }
 body {
-	
+	background: #e9ebee;
 	margin-top:55px;
 }
 
@@ -133,11 +133,6 @@ p {
 	padding:8x;
 	margin-left:5px;
 }
-
-body {
-	background: #e9ebee;
-	
-}
 div .panel-footer {
 	background:
 	
@@ -220,12 +215,6 @@ li .badge {
     float: right !important;
 }
 
-.blue {
-	padding:-20px;
-	margin-top:20px;
-	color:#17233d !important
-	
-}
 div .panel-body .fa-smile-o {
 	
 	color: red;
@@ -242,8 +231,6 @@ div .panel-body .fa-meh-o {
 .leftpic{
 	position:relative;
 	margin-left:10px;
-	
-	
 }
 .comment {
     margin: 0;
@@ -425,6 +412,81 @@ top:-10px;
 	position:relative;
 	left:50%;
 }
+
+@media (max-width: 1062px) {
+
+
+body {
+	background: #e9ebee;
+	margin-top:55px;
+}
+
+a .fa-facebook-official {
+	margin: 7px 0px 5px 5px;
+	height:25px;
+	padding-bottom:5px;	
+}
+
+}@media (max-width: 948px) {
+
+
+body {
+	background: #e9ebee;
+	margin-top:55px;
+}
+
+a .fa-facebook-official {
+	margin: 8px 0px 5px 120px;
+	height:25px;
+	padding-bottom:5px;	
+}
+ .nav-right {
+    position: relative;
+    bottom: -10px;
+    right: 110px;
+}
+.control-button {
+	height:24px;
+	margin-left: -10px;
+	margin-top:4px;
+
+}
+
+div .form-control {
+	width:150px;
+	margin-top:4px;
+}
+#tanu {
+	width:200px;
+	height:24px;
+
+}
+.Mem-share{
+	position:relative;
+	left:50%;
+	background-color:#f6f7f9;
+	border:1px solid #e9ebee;
+	padding-left:0px;
+}
+#memory-bedge{
+	border-radius:15px;
+	background-color:rgba(0,0,0,0.5);
+	position:relative;
+	left:60px;
+	bottom:-120px;
+	padding:2px 2px 2px 2px;
+	display:none;
+}
+.mem-bedge{
+	background:transparent;
+	
+	
+}
+.glyphicon-time{
+	color:white;
+}
+
+}
 @media (max-width: 728px) {
 	
 	 .nav-right {
@@ -432,4 +494,45 @@ top:-10px;
     bottom: -10px;
     right: 0px;
 }
+a .fa-facebook-official {
+	margin: 9px 0px 25px 5px;
+	height:25px;
+	padding-bottom:5px;	
+}
+
+.mem-bedge{
+	background:transparent;
+	
+	
+}
+.glyphicon-time{
+	color:white;
+}
+
+.Mem-share{
+	position:relative;
+	left:20%;
+	background-color:#f6f7f9;
+	border:1px solid #e9ebee;
+	padding-left:0px;
+}
+#badge1{
+	color:white;
+	background-color:red;
+	position:relative;
+	left:-230px;
+	top:-2px;
+	border-radius:1px;
+	padding:1px 2px 1px 4px;
+	
+}
+.tag{
+	display:none;
+	
+}
+.glyphicon-menu-down
+{	display:none;
+	
+}
+
 }
