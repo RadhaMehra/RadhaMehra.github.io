@@ -133,10 +133,6 @@ p {
 	padding:8x;
 	margin-left:5px;
 }
-div .panel-footer {
-	background:
-	
-}
 	
 
 .panel-body .tag1 {
@@ -146,7 +142,7 @@ div .panel-footer {
 
 
 a .fa-facebook-official {
-	margin: 9px 0px 25px 220px;
+	margin: 9px 0px 25px 230px;
 	height:25px;
 	padding-bottom:5px;	
 }
@@ -158,12 +154,12 @@ a .fa-facebook-official {
 }
 
 div .form-control {
-	width:250px;
+	width:350px;
 	margin-top:4px;
 }
 
 #tanu {
-	width:400px;
+	width:360px;
 	height:24px;
 
 }
@@ -392,10 +388,9 @@ top:-10px;
 	bottom:-120px;
 	padding:6px 2px 6px 2px;
 }
-.mem-bedge{
-	background:transparent;
+.bedge2{
 	
-	
+	background-color:transparent;
 }
 .glyphicon-time{
 	color:white;
