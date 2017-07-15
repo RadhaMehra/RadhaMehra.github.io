@@ -444,7 +444,8 @@ a .fa-facebook-official {
 	height:24px;
 	margin-left: -10px;
 	margin-top:4px;
-
+	border:0px;
+	outline:none;
 }
 
 div .form-control {
@@ -549,4 +550,45 @@ div .form-control {
 
 }
 
+}
+
+
+
+.status {
+	position:relative;
+	left:20px;
+	bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius:40px;
+	background-color:#f6f7f9;
+	outline:none;
+	border:transparent;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.status:hover {
+	
+	background-color:#e9ebee;
+}
+.fa-picture-o {
+	color:green;
+	
+}
+.fa-smile-o{
+	
+	color:orange;
+}
+
+
+
+.ellipsis {
+	padding-right:14px;
+	padding-left:14px;
+	color:#a4b5be;
+}
+.photo {
+	
+	color:#2C3E50;
+	
 }
